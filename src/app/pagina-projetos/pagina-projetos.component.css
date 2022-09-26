@@ -118,7 +118,7 @@ main {
 
     .container-projetos .imagem img {
         width: 100px;
-        margin: 0;
+        margin: 5px;
     }
 
     .descricao {
@@ -126,7 +126,6 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        height: 1000px;
     }
 
     .container-projetos-reverse {
@@ -148,7 +147,6 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-        height: 1000px;
         text-align: center;
     }
 
