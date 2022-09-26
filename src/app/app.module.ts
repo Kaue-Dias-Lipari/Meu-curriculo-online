@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PaginaInicialComponent } from './pagina-inicial/pagina-inicial.component';
 import { PaginaContatoComponent } from './pagina-contato/pagina-contato.component';
 import { TecnologiasComponent } from './tecnologias/tecnologias.component';
+import { PaginaProjetosComponent } from './pagina-projetos/pagina-projetos.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TecnologiasComponent } from './tecnologias/tecnologias.component';
     FooterComponent,
     PaginaInicialComponent,
     PaginaContatoComponent,
-    TecnologiasComponent
+    TecnologiasComponent,
+    PaginaProjetosComponent
   ],
   imports: [
     BrowserModule,

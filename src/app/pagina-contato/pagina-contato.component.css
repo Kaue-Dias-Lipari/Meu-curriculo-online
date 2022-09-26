@@ -8,10 +8,10 @@
 
 .pagina-contato-container {
     display: flex;
-    height: 810px;
     align-items: center;
     justify-content: center;
     background-color: rgb(235, 244, 255);
+    height: 100vh;
 }
 
 .pagina-contato-container .info-contatos {
@@ -53,6 +53,7 @@
         align-items: center;
         text-align: center;
         padding: 0px 25px 50px 25px;
+        height: 100vh;
     }
 
     .pagina-contato-container div img {

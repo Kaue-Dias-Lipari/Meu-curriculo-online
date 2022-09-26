@@ -6,6 +6,10 @@
     list-style: none;
 }
 
+main {
+    margin-top: 50px;
+}
+
 .bem-vindo-container {
     display: flex;
     align-items: center;
@@ -31,7 +35,7 @@
     align-items: center;
     justify-content: center;
     height: 400px;
-    background-color: rgb(235, 244, 255);
+
 }
 
 .quem-sou-eu-container .texto-quem-sou-eu {
