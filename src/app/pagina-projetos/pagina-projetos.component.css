@@ -98,7 +98,7 @@ main {
 
 /* Media queries */
 
-@media (max-width: 700px) {
+@media (max-width: 1024px) {
     .divisoria {
         background-color: rgb(78, 155, 255);
         color: rgb(78, 155, 255);
