@@ -18,7 +18,7 @@ import { PaginaProjetosComponent } from './pagina-projetos/pagina-projetos.compo
     PaginaInicialComponent,
     PaginaContatoComponent,
     TecnologiasComponent,
-    PaginaProjetosComponent
+    PaginaProjetosComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,18 +1,54 @@
-<div class="pagina-contato-container">
-    <div>
+<body class="pagina-contato-container">
+    <div class="img-contato">
         <img src="./assets/img/contato-pagina.webp">
     </div>
-    <div class="info-contatos">
-        <div class="texto-contatos">
-            <h2>Contatos:</h2>
-            <h4>Celular: (11) 99450-4190</h4>
-            <h4>Email: kauelipari@uol.com.br</h4>
+
+    <form action="https://formsubmit.co/kauelipari@uol.com.br" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://relaxed-kitsune-340ed4.netlify.app">
+        <input type="hidden" name="_autoresponse" value="Já recebi sua mensagem, obrigado pelo contato e logo irei te responder!">
+
+        <div>
+            <div class="nome">
+                <label>Nome*</label>
+                <input type="text" name="name" placeholder="Digite seu nome" required>
+            </div>
+            <div class="contato">
+                <div class="email">
+                    <label>Email*</label>
+                    <input type="email" name="email" placeholder="exemplo@exemplo.com" required>
+                </div>
+                <div class="celular">
+                    <label>Celualar</label>
+                    <input type="number" name="number" placeholder="(XX) XXXXX-XXXX">
+                </div>
+            </div>
+            <div class="mensagem">
+                <label>Mensagem*</label>
+                <textarea name="message" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <section class="atencao">
+                <p>Ao clicar no botão a baixo, você enviará a mensagem e será redirecionado para a página inicial.</p>
+            </section>
+            <div class="botao">
+                <button type="submit" class="botao-submit">Enviar!</button>
+            </div>
         </div>
-        <div class="botao-contatos">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/kauê-dias-lipari-a76743210/" target="_blank" rel="noopener noreferrer">LinkedIn</a><li>
-                <li><a href="https://github.com/Kaue-Dias-Lipari" target="_blank" rel="noopener noreferrer">GitHub</a><li>
-            </ul>
+
+        <hr/>
+
+        <div class="infos-container">
+            <h3>Minhas informações de contato:</h3>
+            <div class="infos">
+                <div class="botoes-redes-sociais">
+                    <a href="https://github.com/Kaue-Dias-Lipari">Github</a>
+                    <a href="linkedin.com/in/kauê-dias-lipari-a76743210">LinkedIn</a>
+                </div>
+                <div class="cel-email">
+                    <p>Celular: (11) 99450-4190</p>
+                    <p>Email: kauelipari@uol.com.br</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
+   </form>
+</body>

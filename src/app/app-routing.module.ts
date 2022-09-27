@@ -7,7 +7,7 @@ import { PaginaProjetosComponent } from './pagina-projetos/pagina-projetos.compo
 const routes: Routes = [
   {path: '', component: PaginaInicialComponent},
   {path: 'contato', component: PaginaContatoComponent},
-  {path: 'projetos', component: PaginaProjetosComponent}
+  {path: 'projetos', component: PaginaProjetosComponent},
 ];
 
 @NgModule({
